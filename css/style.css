@@ -24,13 +24,27 @@ header .logo img{
   width:100px;
   height:80px;
 }
+.c{
+  background-color: rgb(239, 68, 68);
+  color:white!important;
+  padding:5px 15px!important;
+ 
+}
+.e{
+  background-color: rgb(31, 142, 233);
+  color:white!important;
+  padding:5px 15px!important;
+ 
+}
+
+
 .nav_list{
    display:flex;
    align-items: center;
 }
 .nav_link{
   padding:10px;
-  font-size:0.9rem;
+  font-size:17px;
   font-weight: 500;
   border-radius:5px;
   color:black;
@@ -41,7 +55,7 @@ header .logo img{
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
   header{
     margin-top:10px;
     height:48px;
@@ -52,14 +66,16 @@ header .logo img{
   .header_toggle{
     display:inline;
     color:black;
-    font-size:24px;
+    font-size:30px;
   }
   .header_close{
     position: absolute;
-    right:24px;
+    right:15px;
     display:block;
-    font-size:24px;
+    font-size:27px;
     border-radius:50%;
+    color:red;
+    font-weight: 600;
   }
   .nav{
     position:fixed;
@@ -74,12 +90,19 @@ header .logo img{
     transition: 0.5s;
     border-radius: 0 0 0 50%;
   }
+ 
   .nav_list{
     display:flex;
     flex-direction: column;
+    padding-top:30px;
+    padding-bottom:20px!important;
   }
-  .nav_link{
-    margin:10px 0;
+  .nav_list a{
+  
+  }
+  
+  .show{
+    right:0;
   }
 
  
