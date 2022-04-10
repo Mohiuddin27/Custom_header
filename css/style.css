@@ -43,6 +43,7 @@ header .logo img{
    align-items: center;
 }
 .nav_link{
+
   padding:10px;
   font-size:17px;
   font-weight: 500;
@@ -67,6 +68,7 @@ header .logo img{
     display:inline;
     color:black;
     font-size:30px;
+    cursor:pointer;
   }
   .header_close{
     position: absolute;
@@ -76,6 +78,7 @@ header .logo img{
     border-radius:50%;
     color:red;
     font-weight: 600;
+    cursor:pointer;
   }
   .nav{
     position:fixed;
@@ -90,20 +93,24 @@ header .logo img{
     transition: 0.5s;
     border-radius: 0 0 0 50%;
   }
- 
+
   .nav_list{
     display:flex;
     flex-direction: column;
     padding-top:30px;
     padding-bottom:20px!important;
   }
-  .nav_list a{
-  
-  }
+ 
   
   .show{
     right:0;
   }
+ 
 
  
+}
+.nav_item{
+   
+  padding:15px 0;
+
 }
